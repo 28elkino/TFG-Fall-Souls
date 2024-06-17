@@ -188,3 +188,54 @@ main nav {
   border: 3px solid #ffffff6b;
   border-radius: 10px;
 }
+
+/* ELEMENTOS FIJOS DE PIE DE PÁGINA */
+
+.redes-sociales {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px;
+  background-color: #00000050;
+  border-radius: 10px;
+}
+
+.redes-sociales a {
+  display: inline-block;
+  margin-right: 10px;
+  width: 37px;
+  position: relative;
+}
+
+.redes-sociales a img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.redes-sociales a:hover img {
+  animation: animacion-crecimiento 0.3s ease forwards;
+}
+
+@keyframes animacion-crecimiento {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+#simulador {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+  padding: 10px;
+  background-color: #00000050;
+  border-radius: 10px;
+}
