@@ -1,33 +1,33 @@
 /* MARK: GENERAL*/
 @font-face {
   font-family: "Poppins";
-  src: url(Fonts/Poppins-Regular.ttf);
+  src: url(../Fonts/Poppins-Regular.ttf);
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url(Fonts/Poppins-Light.ttf);
+  src: url(../Fonts/Poppins-Light.ttf);
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url(Fonts/Poppins-Bold.ttf);
+  src: url(../Fonts/Poppins-Bold.ttf);
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url(Fonts/Poppins-BoldItalic.ttf);
+  src: url(../Fonts/Poppins-BoldItalic.ttf);
   font-weight: bold;
   font-style: italic;
 }
 
-body {
+* {
   margin: 0;
 }
 
@@ -149,7 +149,7 @@ body {
 
   /* MARK: CONTENIDO*/
   main {
-    background-image: url("Img/General/Fondo Elden Ring.jpg");
+    background-image: url("../Img/General/Fondo\ Elden\ Ring.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     background-position: center;
@@ -306,12 +306,12 @@ body {
   }
 
   #humo_principal {
-    background-image: url("img/General/Humo-2.png");
+    background-image: url("../img/General/Humo-2.png");
     animation: animarHumoPrincipal 120s linear infinite;
   }
 
   #humo_secundario {
-    background-image: url("img/General/humo-1.png");
+    background-image: url("../img/General/humo-1.png");
     animation: animarHumoSecundario 50s linear infinite;
   }
 
