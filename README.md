@@ -1,23 +1,4 @@
-CARACTERÍSTICAS:
-
-USO:
-
-TECNOLOGÍAS UTILIZADAS:
-
-- HTML
-- CSS
-- JavaScript
-- React
-- Java
-- MongoDB
-
-CONTACTO:
-
-- Email: kinog28@gmail.com
-- Twitter: @kino
-- Instagram: @kino
-
-# Fall Souls
+# Fall Souls Wiki
 
 La Fall Souls Wiki es una plataforma diseñada para proporcionar a los jugadores de Fall Souls toda la información que necesitan. Desde guías detalladas sobre misiones y objetos hasta un simulador de builds para planificar tus personajes, esta wiki es el recurso definitivo para los fans del juego.
 
@@ -33,21 +14,12 @@ La Fall Souls Wiki es una plataforma diseñada para proporcionar a los jugadores
 
 ## 📖 Documentation
 
-For detailed usage instructions and API reference, visit our documentation at [docs.mem0.ai](https://docs.mem0.ai).
+Toda la documentación sobre el uso de la web y de sus aplicaciones dentro del fichero "docs"
 
-## 🗺️ Roadmap
+## 🙋‍♂️ Soporte
 
-- Integration with various LLM providers
-- Support for LLM frameworks
-- Integration with AI Agents frameworks
-- Customizable memory creation/update rules
-- Hosted platform support
+Si tienes alguna duda, me puedes contactar de la siguiente forma:
 
-## 🙋‍♂️ Support
-
-Join our Slack or Discord community for support and discussions.
-If you have any questions, feel free to reach out to us using one of the following methods:
-
-- [Follow us on Instagram](https://twitter.com/mem0ai)
-- [Follow us on Twitter](https://twitter.com/mem0ai)
-- [Email us](mailto:kinog28@gmail.com)
+- [Email](mailto:kinog28@gmail.com)
+- [Instagram](https://twitter.com/mem0ai)
+- [Twitter](https://twitter.com/mem0ai)
