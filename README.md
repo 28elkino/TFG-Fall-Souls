@@ -12,10 +12,6 @@ La Fall Souls Wiki es una plataforma diseñada para proporcionar a los jugadores
 - **Comentarios y Comunidad**: Sistema de comentarios para colaborar y discutir estrategias.
 - **Búsqueda Avanzad**: Funcionalidad de búsqueda para encontrar rápidamente la información que necesitas.
 
-## 📖 Documentation
-
-Toda la documentación sobre el uso de la web y de sus aplicaciones dentro del fichero "docs"
-
 ## 🙋‍♂️ Soporte
 
 Si tienes alguna duda, me puedes contactar de la siguiente forma:
