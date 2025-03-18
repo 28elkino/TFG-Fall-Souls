@@ -1,5 +1,5 @@
 DESCRIPCIÓN:
-La Fall Souls Wiki es una plataforma diseñada para proporcionar a los jugadores de Fall Souls toda la información que necesitan. Desde guías detalladas sobre misiones y objetos hasta un simulador de builds para planificar tus personajes, esta wiki es el recurso definitivo para los fans del juego.
+La Fall Souls Wiki es una plataforma diseñada para proporcionar a los jugadores de Fall Souls toda la información que necesitan. Desde guías detalladas sobre misiones y objetos hasta un simulador de builds para planificar tus personajes, esta wiki es el recurso definitivo para los fans del juego. Entonces todos los cambios que haga aquí no debería de aparecer en el Main, no?
 Capturas de Pantalla
 
 CARACTERÍSTICAS:
