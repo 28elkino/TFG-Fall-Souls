@@ -2,7 +2,7 @@
 
 La Fall Souls Wiki es una plataforma diseñada para proporcionar a los jugadores de Fall Souls toda la información que necesitan. Desde guías detalladas sobre misiones y objetos hasta un simulador de builds para planificar tus personajes, esta wiki es el recurso definitivo para los fans del juego.
 
-> Note: Fall Souls Wiki es mi TFG creando mi propio videojuego basandome en algunos de mis juegos favoritos. En este proyecto se utilizan algunas imágenes con derecho de autor pero no es con ningún propósito monetario, simplemente está creada con todo el cariño del mundo ❤️.
+> Note: Fall Souls Wiki es mi TFG creando mi propio videojuego basandome en algunos de mis juegos favoritos. En este proyecto se utilizan algunas imágenes con derecho de autor pero no es con ningún propósito monetario, simplemente está creada con todo el cariño del mundo.
 
 ## ⚙️ Características
 
@@ -10,7 +10,7 @@ La Fall Souls Wiki es una plataforma diseñada para proporcionar a los jugadores
 - **Simulador de builds**: Herramienta interactiva para planificar y compartir builds de personajes.
 - **Perfiles personalizables**: Los usuarios pueden personalizar su perfil, añadir amigos y compartir su progreso.
 - **Comentarios y Comunidad**: Sistema de comentarios para colaborar y discutir estrategias.
-- **Búsqueda Avanzad**: Funcionalidad de búsqueda para encontrar rápidamente la información que necesitas.
+- **Búsqueda Avanza**: Funcionalidad de búsqueda para encontrar rápidamente la información que necesitas.
 
 ## 🙋‍♂️ Soporte
 

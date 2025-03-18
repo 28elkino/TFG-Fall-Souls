@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- MARK: HEAD -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Souls III Wiki</title>
+    <link rel="stylesheet" href="CSS/home.css" />
+    <meta name="language" content="es" />
+    <meta name="description" content="Wiki dedicada a Dark Souls III con guías, estrategias y más." />
+    <link rel="icon" href="img/General/Dark Souls 3 Hoguera.png" type="image/png" />
+  </head>
+  <body>
+    <!-- MARK: BARRA NAVEGACIÓN -->
+    <nav id="posicion_navbar">
+      <ul id="diseño_navbar">
+        <a href="home.html"><img class="logos-navbar" src="Img/General/Elden-Ring-Logo.png" alt="elden ring" /></a>
+        <button class="botones-navbar"><img src="img/General/Buscar movil.png" /></button>
+        <li><a class="categoria" href="#">FORO</a></li>
+        <li><a class="categoria" href="#">MISIONES</a></li>
+        <li><a class="categoria" href="#">PERSONAJES</a></li>
+        <li><a class="categoria" href="#">EQUIPAMIENTO</a></li>
+        <li><a class="categoria" href="#">FACCIONES</a></li>
+        <li><a class="categoria" href="#">LUGARES</a></li>
+        <button class="botones-navbar"><img src="img/General/Icono de registro 2.png" /></button>
+        <a href="home.html"><img class="logos-navbar" src="Img/General/Fromsoftware_logo.png" /></a>
+      </ul>
+    </nav>
+    <main>
+      <!-- MARK: HOME -->
+      <section id="home">
+        <img id="fondo-sea" src="Img/General/sea of star fondo.jpg" />
+      </section>
+      <!-- MARK: NOTICIAS -->
+      <section id="noticias">
+        <div id="posicion-pestañas">
+          <button class="pestaña" onclick="abrirPestaña(event, 'noticia1')">NUKA WORLD</button>
+          <button class="pestaña" onclick="abrirPestaña(event, 'noticia2')">PARCHE 1.6.7</button>
+          <button class="pestaña" onclick="abrirPestaña(event, 'noticia3')">ART BOOK</button>
+          <button class="pestaña" onclick="abrirPestaña(event, 'noticia4')">WALLPAPPERS</button>
+        </div>
+
+        <div id="noticia1" class="contenido">
+          <img src="Img/General/Artbook.jpg" />
+          <div>
+            <h2>Sea of Stars: The Concept Art of Bryce Kho 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores rerum laborum tempora ipsa iure deserunt
+              ratione impedit, voluptatibus a modi, similique cum aut necessitatibus vel architecto quod? Ab, maxime
+              similique.
+            </p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+
+        <div id="noticia2" class="contenido" style="display: none">
+          <img src="Img/Lugares/Irithyll_del_Valle_Boreal.webp" />
+          <div>
+            <h2>Sea of Stars: The Concept Art of Bryce Kho 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores rerum laborum tempora ipsa iure deserunt
+              ratione impedit, voluptatibus a modi, similique cum aut necessitatibus vel architecto quod? Ab, maxime
+              similique.
+            </p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+
+        <div id="noticia3" class="contenido" style="display: none">
+          <img src="Img/General/Artbook.jpg" />
+          <div>
+            <h2>Sea of Stars: The Concept Art of Bryce Kho 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores rerum laborum tempora ipsa iure deserunt
+              ratione impedit, voluptatibus a modi, similique cum aut necessitatibus vel architecto quod? Ab, maxime
+              similique.
+            </p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+
+        <div id="noticia4" class="contenido" style="display: none">
+          <img src="Img/General/Artbook.jpg" />
+          <div>
+            <h2>Sea of Stars: The Concept Art of Bryce Kho 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores rerum laborum tempora ipsa iure deserunt
+              ratione impedit, voluptatibus a modi, similique cum aut necessitatibus vel architecto quod? Ab, maxime
+              similique.
+            </p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+        <script src="pestañas.js"></script>
+        <!-- Enlace al archivo JS -->
+      </section>
+    </main>
+    <footer>
+      <!-- MARK: FOOTER -->
+    </footer>
+  </body>
+</html>

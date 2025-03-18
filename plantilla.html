@@ -371,19 +371,15 @@
       </footer>
     </div>
     <div class="escritorio">
-      <header>
-        <!-- MARK: HEADER ESCRITORIO -->
-        <a href="plantilla.html">
-          <img id="logo" src="img/General/Elden-Ring-Logo.png" alt="Dark Souls III" />
-        </a>
-      </header>
-      <nav id="scroll_barra_navegacion_fija">
-        <!-- MARK: NAV ESCRITORIO -->
-        <ul id="barra_navegacion">
-          <li><a class="pestaña_principal" href="#">INICIO</a></li>
-          <li><a class="pestaña_principal" href="#">FORO</a></li>
-          <li class="categoria">
-            <a class="pestaña_principal" href="#">MISIONES</a>
+      <!-- MARK: NAV -->
+      <nav id="posicion_navbar">
+        <ul id="diseño_navbar">
+          <a href="home.html"><img class="logos-navbar" src="Img/General/Elden-Ring-Logo.png" alt="elden ring" /></a>
+          <button class="botones-navbar"><img src="img/General/Buscar movil.png" /></button>
+          <li><a class="categoria" href="#">COMUNIDAD</a></li>
+          <li><a class="categoria" href="#">PRODUCTOS</a></li>
+          <li>
+            <a class="categoria" href="#">MISIONES</a>
             <ul class="desplegable">
               <li><a href="#">Principales</a></li>
               <li><a href="#">Secundarias</a></li>
@@ -395,8 +391,8 @@
               <!-- Más misiones -->
             </ul>
           </li>
-          <li class="categoria">
-            <a class="pestaña_principal" href="#">PERSONAJES</a>
+          <li>
+            <a class="categoria" href="#">PERSONAJES</a>
             <ul class="desplegable">
               <li><a href="#">Aliados</a></li>
               <li><a href="#">Compañeros</a></li>
@@ -406,8 +402,8 @@
               <!-- Más personajes -->
             </ul>
           </li>
-          <li class="categoria">
-            <a class="pestaña_principal" href="#">EQUIPAMIENTO</a>
+          <li>
+            <a class="categoria" href="#">EQUIPAMIENTO</a>
             <ul class="desplegable">
               <li><a href="#">Armas</a></li>
               <li><a href="#">Escudos</a></li>
@@ -418,16 +414,16 @@
               <!-- Más objetos -->
             </ul>
           </li>
-          <li class="categoria">
-            <a class="pestaña_principal" href="#">FACCIONES</a>
+          <li>
+            <a class="categoria" href="#">FACCIONES</a>
             <ul class="desplegable">
               <li><a href="#">Apiladores</a></li>
               <li><a href="#">Minutmen</a></li>
               <!-- Más facciones -->
             </ul>
           </li>
-          <li class="categoria">
-            <a class="pestaña_principal" href="#">LUGARES</a>
+          <li>
+            <a class="categoria" href="#">LUGARES</a>
             <ul class="desplegable">
               <li><a href="#">Pico Terrenal</a></li>
               <li><a href="#">Bosque Sombrio</a></li>
@@ -438,62 +434,33 @@
               <!-- Más lugares -->
             </ul>
           </li>
-          <li class="categoria">
-            <form class="pestaña_principal" id="buscar" action="/buscar" method="GET">
-              <input type="text" name="q" placeholder="Buscar" />
-            </form>
-          </li>
-          <li class="categoria">
-            <a class="pestaña_principal" href="#">
-              <button id="registrarse">
-                <img src="img/General/Icono de registro 2.png" />
-              </button>
-            </a>
-            <ul class="desplegable">
-              <li><a href="#">Iniciar sesión</a></li>
-              <li><a href="#">Registrarse</a></li>
-              <!-- Más Opciones -->
-            </ul>
-          </li>
+          <button class="botones-navbar"><img src="img/General/Icono de registro 2.png" /></button>
+          <a href="home.html"><img class="logos-navbar" src="Img/General/Fromsoftware_logo.png" /></a>
         </ul>
       </nav>
       <main>
-        <!-- MARK: MAIN ESCRITORIO -->
+        <!-- MARK: MAIN -->
         <div class="contenido">
-          <img class="contenido_der" src="img/Inicio/Dark souls 3 portada.webp" alt="Portada Dark Souls III" />
-          <p class="contenido_izq">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem totam, aliquam exercitationem suscipit dolores
-            harum dicta ipsam illum incidunt tenetur voluptatem dolore modi error vitae unde rerum repellat nostrum
-            distinctio.
-          </p>
-          <nav>
-            <p><b>SUMARIO</b></p>
-            <hr />
-            <ul id="sumario">
+          <nav id="posicion_indice">
+            <ul id="indice">
               <li>
-                <a href="#sumario_texto">1. TEXTO</a>
+                <a href="">ELEMENTO 1</a>
               </li>
               <li>
-                <a href="#sumario_subtexto1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1. SUBTEXTO 1</a>
+                <a href="">ELEMENTO 2</a>
               </li>
               <li>
-                <a href="#sumario_subtexto2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2. SUBTEXTO 2</a>
+                <a href="">ELEMENTO 3</a>
               </li>
               <li>
-                <a href="#sumario_seleccionables_iconos">2. SELECCIONABLES ICONOS</a>
-              </li>
-              <li>
-                <a href="#sumario_seleccionables_imagenes">3. SELECCIONABLES IMÁGENES</a>
-              </li>
-              <li>
-                <a href="#galeria_imagenes_videos">4. GALERÍA IMÁGENES & VÍDEOS</a>
+                <a href="">ELEMENTO 4</a>
               </li>
             </ul>
           </nav>
           <section id="sumario_texto">
             <h2>TEXTO</h2>
             <hr />
-            <p class="contenido_izq">
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptas iste reprehenderit ratione itaque?
               Aperiam impedit earum amet at eaque maiores vel quaerat voluptas. Deserunt eius maiores quas provident iusto!
             </p>
@@ -580,23 +547,6 @@
         <div id="humo_principal"></div>
         <div id="humo_secundario"></div>
       </main>
-      <footer>
-        <!-- MARK: FOOTER ESCRITORIO -->
-        <div class="redes-sociales">
-          <a href="https://www.youtube.com/"><img src="img/General/YT.png" alt="youTube" /></a>
-          <a href="https://www.instagram.com/"><img src="img/General/Insta.png" alt="instagram" /></a>
-          <a href="https://www.tiktok.com/login?lang=es&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Des"
-            ><img src="img/General/Tik-Tok.png" alt="tiktok"
-          /></a>
-          <a href="https://x.com/?lang=es"><img src="img/General/Twitter.png" alt="twitter" /></a>
-        </div>
-        <div id="pie_pagina">
-          <nav>
-            <a href="/acerca-de">Acerca de</a> | <a href="/contacto">Contacto</a> |
-            <a href="/privacidad">Política de Privacidad</a>
-          </nav>
-        </div>
-      </footer>
     </div>
   </body>
 </html>
